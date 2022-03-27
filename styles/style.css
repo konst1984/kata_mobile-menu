@@ -1,175 +1,149 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
 }
 
-html, body {
-	width: 100%;
-	height: 100vh;
-	font-size: 16px;
-	font-family: 'TT Lakes', 'Montserrat', sans-serif;
-	font-weight: 400;
-	color: #1B1C21;
+html,
+body {
+	width:100%;
+	height:100vh;
+	font-size:16px;
+	font-family:'TT Lakes','Montserrat',sans-serif;
+	font-weight:400;
+	color:#1B1C21;
 }
 
 a,
 a:visited {
-	text-decoration: none;
-	outline: none;
+	text-decoration:none;
+	outline:none;
 }
 
-a {
-	cursor: pointer;
-}
+a { cursor:pointer; }
 
-ul li {
-	list-style: none;
-}
+ul li { list-style:none; }
 
-.flex {
-	display: flex;
-}
+.flex { display:flex; }
 
 button {
-	font-family: 'TT Lakes', 'Montserrat', sans-serif;
-	cursor: pointer;
-	border: none;
-	background-color: transparent;
+	font-family:'TT Lakes','Montserrat',sans-serif;
+	cursor:pointer;
+	border:none;
+	background-color:transparent;
 }
 
 button:focus,
-.logo__link:focus {
-	outline: 2px solid #41F6D7;
-}
+.logo__link:focus { outline:2px solid #41F6D7; }
 
 .mobile-menu__body {
-	flex-direction: column;
-	gap: 268px;
+	flex-direction:column;
+	gap:268px;
 }
 
 .mobile-menu {
-	min-height: 100%;
-	width: 320px;
-	padding: 24px;
-	background: #FFFFFF;
-	box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+	min-height:100%;
+	width:320px;
+	padding:24px;
+	background:#FFFFFF;
+	box-shadow:-2px 0px 4px rgba(69,79,126,0.02),16px 0px 52px rgba(14,24,80,0.2);
 }
 
-.padding-mobile {
-	padding: 24px;
-}
+.padding-mobile { padding:24px; }
 
 .mobile-menu__header {
-	align-items: center;
-	margin-bottom: 46px;
+	align-items:center;
+	margin-bottom:46px;
 }
 
-.logo--mobile {
-	margin-left: 16px;
-}
+.logo--mobile { margin-left:16px; }
 
-.btn-round--mobile-search {
-	margin-left: auto;
-}
+.btn-round--mobile-search { margin-left:auto; }
 
 .btn-round {
-	padding: 2px;
-	width: 42px;
-	height: 42px;
-	border-radius: 50%;
-	border: none;
-	background-color: #fff;
+	padding:2px;
+	width:42px;
+	height:42px;
+	border-radius:50%;
+	border:none;
+	background-color:#fff;
 }
 
-.btn-round:hover {
-	filter: hue-rotate(180deg);
-}
+.btn-round:hover { filter:hue-rotate(180deg); }
 
 .btn-round img {
-	width: 100%;
-	cursor: pointer;
+	width:100%;
+	cursor:pointer;
 }
 
-
-.nav {
-	margin-bottom: 14px;
-}
+.nav { margin-bottom:14px; }
 
 .nav--mobile {
-	position: relative;
-	transform: translateX(-24px);
-	margin: 0;
+	position:relative;
+	transform:translateX(-24px);
+	margin:0;
 }
 
-.nav__list {
-	margin-bottom: 10px;
-}
+.nav__list { margin-bottom:10px; }
 
 .nav__item {
-	position: relative;
-	align-items: center;
-	flex-shrink: 0;
+	position:relative;
+	align-items:center;
+	flex-shrink:0;
 }
 
 .nav__link {
-	padding: 8px 15px;
-	font-size: 16px;
-	font-weight: 500;
-	border: 2px solid transparent;
-	border-radius: 6px;
-	background-color: transparent;
-	color: #1B1C21;
-	outline: none;
+	padding:8px 15px;
+	font-size:16px;
+	font-weight:500;
+	border:2px solid transparent;
+	border-radius:6px;
+	background-color:transparent;
+	color:#1B1C21;
+	outline:none;
 }
 
 .nav__item {
-	border-left: 3px solid transparent;
-	border-top: 2px solid transparent;
-	border-bottom: 2px solid transparent;
-	border-radius: 0;
+	border-left:3px solid transparent;
+	border-top:2px solid transparent;
+	border-bottom:2px solid transparent;
+	border-radius:0;
 }
 
 .nav__item:focus-within {
-	border-left: 3px solid #41F6D7;
-	color: #7E7E82;
+	border-left:3px solid #41F6D7;
+	color:#7E7E82;
 }
 
 .mobile-menu__footer {
-	flex-direction: column;
-	gap: 40px;
+	flex-direction:column;
+	gap:40px;
 }
 
 .contacts-wrapper {
-	flex-direction: column;
-	gap: 16px;
+	flex-direction:column;
+	gap:16px;
 }
 
-.contacts--mobile {
-	gap: 16px;
-}
+.contacts--mobile { gap:16px; }
 
 .contacts-link {
-	padding: 2px;
-	color: #1B1C21;
+	padding:2px;
+	color:#1B1C21;
 }
 
-.contacts-link:focus {
-	outline: 2px solid #41F6D7;
-}
+.contacts-link:focus { outline:2px solid #41F6D7; }
 
 .contacts-link--phone {
-	font-size: 24px;
-	font-weight: 700;
+	font-size:24px;
+	font-weight:700;
 }
 
 .languages__btn {
-	padding: 2px;
-	color: #1B1C21;
-	text-transform: uppercase;
+	padding:2px;
+	color:#1B1C21;
+	text-transform:uppercase;
 }
 
 .nav__link:hover,
-.languages__btn {
-	color: #7E7E82;
-}
+.languages__btn { color:#7E7E82; }
